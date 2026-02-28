@@ -1,5 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_URL || 
-                 (import.meta.env.PROD ? "https://suvidha-admin-dashboard.onrender.com/api" : "http://localhost:5002/api");
+const BASE_URL = "https://suvidha-admin-dashboard.onrender.com/api";
 
 
 async function request(method, path, body) {
